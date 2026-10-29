@@ -1,0 +1,281 @@
+body {
+    background-color: #0B1210;
+    margin: 0;
+}
+
+.navigatie {
+    display: flex;
+    align-items: center;
+}
+.navigatie2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 109px; width: 1440px;
+}
+.titel {
+    color: white;
+    font-size: 30px;
+    margin-left: 160px;
+}
+.home-button {
+    color: rgb(255, 255, 255);
+    margin-right: 26px;
+}
+.practice-button {
+    color: rgb(255, 255, 255);
+    margin-right: 26px;
+}
+.about-button {
+    color: rgb(255, 255, 255);
+    margin-right: 26px;
+}
+.contact-button {
+    color: rgb(170, 236, 170);
+    margin-right: 26px;
+}
+.player-login-button {
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 160px;
+    border-radius: 5px;
+    background-color: #192B24;
+    height: 40px; width: 100px;
+}
+
+
+.hero-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1440px;
+    margin-top: 96px;
+}
+.guides-online {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 37px; width: 331px;
+    border-radius: 19px;
+    background-color: #192B24;
+    color: #70D6B6;
+    font-size: 12px;
+    font-family: monospace;
+}
+.stuck-on {
+    margin-top: 22px;
+    width: 760px;
+    text-align: center;
+    font-size: 52px;
+    line-height: 60px;
+    color: #F3F1E7;
+}
+.questions-about {
+    margin-top: 25px;
+    width: 680px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 32px;
+    color: #9EAA9E;
+}
+
+.contact-cards {
+    display: flex;
+    margin-top: 73px;
+}
+.email-card {
+    display: flex;
+    align-items: center;
+    height: 96px; width: 319px;
+    border-radius: 14px;
+    background-color: #a8d672;
+    box-shadow: 0 0 30px rgba(168, 214, 114, 0.35);
+    margin-right: 24px;
+}
+.discord-card {
+    display: flex;
+    align-items: center;
+    height: 96px; width: 319px;
+    border-radius: 14px;
+    background-color: #C6B5FF;
+    box-shadow: 0 0 30px rgba(198, 181, 255, 0.35);
+}
+.email-icon, .discord-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px; width: 56px;
+    margin-left: 16px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.email-text, .discord-text {
+    margin-left: 16px;
+}
+.email-titel, .discord-titel {
+    color: #0B1210;
+    font-size: 16px;
+}
+.email-adres, .discord-adres {
+    color: #2b3a2f;
+    margin-top: 4px;
+    font-size: 12px;
+}
+
+
+.form-section {
+    margin-top: 87px;
+    width: 1440px;
+    display: flex;
+    justify-content: center;
+}
+.slow-message {
+    width: 768px;
+    padding: 56px;
+    border-radius: 36px;
+    background-color: #192B24;
+    border: 1px solid #2a4036;
+}
+.open-support {
+    color: #FFB893;
+    font-size: 12px;
+    font-family: monospace;
+}
+.send-a-slow {
+    margin-top: 12px;
+    font-size: 40px;
+    color: #F3F1E7;
+}
+.we-reply {
+    margin-top: 8px;
+    font-size: 15px;
+    color: #9EAA9E;
+}
+
+.name-email {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 28px;
+}
+.your-name, .your-email, .gamer-tag, .your-message, .preferred-reset {
+    box-sizing: border-box;
+    border-radius: 12px;
+    background-color: #0f1b16;
+    border: 1.5px solid #2a4036;
+    color: #F3F1E7;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 0 24px;
+    outline: none;
+}
+.your-name::placeholder, .your-email::placeholder, .gamer-tag::placeholder, .your-message::placeholder {
+    color: #5c7366;
+}
+.your-name:focus, .your-email:focus, .gamer-tag:focus, .your-message:focus, .preferred-reset:focus {
+    border-color: #a8d672;
+}
+.your-name {
+    height: 64px; width: 376px;
+}
+.your-email {
+    height: 64px; width: 376px;
+}
+.gamer-tag {
+    height: 64px; width: 768px;
+    margin-top: 24px;
+}
+.your-message {
+    height: 184px; width: 768px;
+    margin-top: 24px;
+    padding: 22px 24px;
+    resize: none;
+}
+.preferred-wrap {
+    position: relative;
+    margin-top: 24px;
+    height: 64px; width: 768px;
+}
+.preferred-reset {
+    height: 64px; width: 768px;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+}
+.preferred-reset:invalid {
+    color: #5c7366;
+}
+.preferred-reset option {
+    background-color: #192B24;
+    color: #F3F1E7;
+}
+.chevron {
+    position: absolute;
+    top: 14px; right: 24px;
+    color: #F3F1E7;
+    font-size: 20px;
+    pointer-events: none;
+}
+
+.send-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    width: 768px;
+}
+.by-sending {
+    width: 420px;
+    font-size: 13px;
+    color: #9EAA9E;
+}
+.send-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 58px; width: 213px;
+    border-radius: 14px;
+    border: none;
+    background-color: rgb(168, 214, 114);
+    color: black;
+    font-family: inherit;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+
+.footer-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 127px;
+    height: 222px; width: 1440px;
+    background-color: #192B24;
+}
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1120px;
+}
+.footer-titel {
+    color: white;
+    font-size: 22px;
+}
+.footer-sub {
+    color: #9EAA9E;
+    font-size: 13px;
+    margin-top: 6px;
+}
+.social-icons {
+    display: flex;
+}
+.social-icons img {
+    height: 36px; width: 186px;
+}
+.copyright {
+    color: #9EAA9E;
+    font-size: 12px;
+    font-family: monospace;
+}
